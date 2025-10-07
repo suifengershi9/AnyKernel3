@@ -87,7 +87,7 @@ if [ -d /data/adb/magisk ] || [ -f /sbin/.magisk ]; then
 fi
 
 ui_print "开始安装内核..."
-ui_print "Powered by GitHub@Numbersf (Aq1298 & 咿云冷雨)"
+ui_print "Powered by GitHub@suifengershi9"
 
 if [ -L "/dev/block/bootdevice/by-name/init_boot_a" ] || [ -L "/dev/block/by-name/init_boot_a" ]; then
     split_boot
